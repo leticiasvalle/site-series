@@ -3,6 +3,16 @@ img {
     object-fit: cover;
 }
 
+.bg-light {
+    border-radius: 10px !important;
+}
+
+.nav-link.active {
+    color: rgba(0, 0, 0, 1) !important;
+    border-bottom: 2px solid #D71F24 !important;
+    padding-bottom: 0px !important;
+}
+
 .img-banner {
     border-radius: 25px;
 }
@@ -53,12 +63,4 @@ img {
 .carousel-item.active {
     display: flex !important;
     justify-content: center !important;
-}
-
-.carousel-control-prev {
-    left: 150px !important;
-}
-
-.carousel-control-next {
-    right: 150px !important;
 }
